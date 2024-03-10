@@ -1,1 +1,7 @@
-data
+.idea
+.ipynb_checkpoints
+saved_models
+data/cropped
+data/rawdata
+data/instances.csv
+__pycache__
