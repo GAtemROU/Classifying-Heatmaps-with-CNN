@@ -3,5 +3,6 @@
 saved_models
 data/cropped
 data/rawdata
+data/datasets
 data/instances.csv
 __pycache__

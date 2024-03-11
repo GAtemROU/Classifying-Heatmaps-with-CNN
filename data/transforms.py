@@ -1,4 +1,3 @@
-import torch
 from torchvision import transforms
 import torch.nn as nn
 
@@ -19,5 +18,5 @@ class ResizeTransform(nn.Module):
 
 class NoTransform(nn.Module):
     """Transform that returns the input unchanged"""
-    def __call__(self, in_tensors):
-        return in_tensors
+    def __call__(self, img):
+        return transforms.ToTensor()(img)
