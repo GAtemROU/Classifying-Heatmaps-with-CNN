@@ -11,6 +11,19 @@ First of all, because of the heatmaps we don't have to choose between saccades a
 Second of all, this approach is promising in terms of interpretability from visual perspective. While neural networks are clearly less interpretable than simpler models, visualizing the gradients on images can be a very good tool for interpretability.
 
 ## Architecture 
+The architecture was kept rather simple. 
+Firstly, batchnormalization without learnable parameters was applied to the input.
+
+Then, there are two convolutional layers followed by one fully connected layer. 
+
+Both convolutional layers look as follows:
+Conv->ReLU->Max Pool->Dropout
+
+The convolitions have sizes and strides of 3, 1 and 5, 2 respectively. 
+
+
+## Evaluation
+To evaluate models better, cross validation was implemented. After training, the model was tested on 4 unseen participants. Then, the model was trained from scratch with a different set of test 
 
 ## Future work
 
