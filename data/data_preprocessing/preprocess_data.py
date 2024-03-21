@@ -16,4 +16,5 @@ def create_datasets(project_path, create_heatmaps=True, create_scanpaths=True):
     split_data(project_path, create_heatmaps, create_scanpaths)
     rmtree(join(project_path, "data/cropped/"))
 
-create_datasets("C:/Users/Admin/projects/Eye_Tracking/")
+if __name__ == '__main__':
+    create_datasets("/home/gatemrou/uds/Eye_Tracking/")
