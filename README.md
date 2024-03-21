@@ -29,9 +29,13 @@ The convolitions have sizes and strides of 3, 1 and 5, 2 respectively.
 
 
 ## Evaluation
-To evaluate models better, cross validation was implemented. After training, the model was tested on 4 unseen participants. Then, the model was trained from scratch with a different set of test 
+To evaluate models better, cross validation was implemented. After training, the model was tested on 4 unseen participants. Then, the model was trained from scratch with a different set of test participants. The process is repeated untill each participant have been to the test set ones. 
+
+## Performance
+The evaluation mentioned above results in the average f1 score of **0.88**, which that the CNN reaches about the same performance as the logisitc regression in the original study.
 
 ## Future work
+
 
 
 
