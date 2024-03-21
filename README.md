@@ -2,8 +2,10 @@
 
 This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). The study investigates into ones eye gaze behaves during reading of unknown words.
 
-In the paper of original study, logistic regression was chosen to solve the problem on numerical data. The eye tracker software also produces heatmaps and scanpathes of eye gaze, this information was used in this project. 
-![image](https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/d93dae17-0f3d-43a6-aa59-5b676b7c2228) ![image](https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/d4f360ea-cd04-4604-aaa1-88c5695cb76e)
+In the paper of original study, logistic regression was chosen to solve the problem on numerical data. The eye tracker software also produces heatmaps and scanpathes of eye gaze, this information was used in this project. Here is an example of the input images:
+
+
+<img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/6433069d-b4c7-428d-aa33-73f3c0cc83ae" height='100' width='650'> <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/8e51b992-1fb6-494f-9bca-b777458b69f2" height='100' width='650'>
 
 
 While this is an unusual approach for such problems, it has some benefits in comparison to numerical method. 
