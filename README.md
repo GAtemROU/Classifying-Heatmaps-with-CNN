@@ -45,7 +45,7 @@ Here the sentence did not have any unknown word and the prediction of network wa
 
 Here the sentence has an unknown word close to the end, the network wrongly predicted the absence of an unknown word. Again we see even more saturated colors in the middle. This shows that model considered middle of the sentence which does not have an unknown word and we see a very steady pattern of saccades and fixations. 
 
-<img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/475b2e5e-01f6-461e-8df9-c4e97feacf5c" height='500' width='500'><img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/15a15a82-80fe-4d89-9cda-946282083833" height='500' width='500'>
+<img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/475b2e5e-01f6-461e-8df9-c4e97feacf5c" height='400' width='400'><img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/15a15a82-80fe-4d89-9cda-946282083833" height='400' width='400'>
 
 
 
