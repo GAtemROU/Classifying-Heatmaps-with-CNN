@@ -1,8 +1,10 @@
 # Classifying Heatmaps with CNN
 
-This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). The study investigates into how ones eye gaze behaves during reading of unknown words. Here is an examle of the input images:
+This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). Here is an example of the input images:
 
 <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/6433069d-b4c7-428d-aa33-73f3c0cc83ae" height='100' width='650'> <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/8e51b992-1fb6-494f-9bca-b777458b69f2" height='100' width='650'>
+
+ The study investigates into how ones eye gaze behaves during reading of unknown words.
 
 In the paper of original study, logistic regression was chosen to solve the problem on numerical data. The eye tracker software also produces heatmaps and scanpathes of eye gaze, this information was used in this project.
 
@@ -32,9 +34,11 @@ The convolitions have sizes and strides of 3, 1 and 5, 2 respectively.
 To evaluate models better, cross validation was implemented. After training, the model was tested on 4 unseen participants. Then, the model was trained from scratch with a different set of test participants. The process is repeated untill each participant have been to the test set ones. 
 
 ## Performance
-The evaluation mentioned above results in the average f1 score of **0.88**, which that the CNN reaches about the same performance as the logisitc regression in the original study.
+The evaluation mentioned above results in the average f1 score of **0.89**, which that the CNN reaches about the same performance as the logisitc regression in the original study.
 
-## Future work
+## Visualization of gradient
+Here is an example of how we can interpret the gradient of the CNN.
+
 
 
 

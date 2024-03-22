@@ -13,7 +13,7 @@ class BasicModel(nn.Module):
         self.relu = nn.ReLU()
         self.fc = nn.Linear(in_size * 15 * 15 * 2, out_size)
         self.flat = nn.Flatten()
-        self.dropout = nn.Dropout(0.3)
+        self.dropout = nn.Dropout(0.4)
 
     def forward(self, X):
         X = self.batchnorm0(X)
@@ -21,14 +21,14 @@ class BasicModel(nn.Module):
         X = self.conv1(X)
         X = self.relu(X)
         X = self.maxpool(X)
-        # X = self.batchnorm1(X)
+        X = self.batchnorm1(X)
         X = self.dropout(X)
 
 
         X = self.conv2(X)
         X = self.relu(X)
         X = self.maxpool(X)
-        # X = self.batchnorm2(X)
+        X = self.batchnorm2(X)
         X = self.dropout(X)
 
 

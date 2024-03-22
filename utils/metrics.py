@@ -6,6 +6,8 @@ from sklearn.metrics import confusion_matrix, f1_score
 def compute_confusion_matrices(model, dataset, participants):
     cfs = {}
     model.eval()
+    if torch.cuda.is_available():
+        model = model.cuda()
     with torch.no_grad():
         for p in participants:
             y_true = []
@@ -23,6 +25,8 @@ def compute_confusion_matrices(model, dataset, participants):
 
 def compute_accuracy(model, loader):
     model.eval()
+    if torch.cuda.is_available():
+        model = model.cuda()
     with torch.no_grad():
         test_accuracy = 0.0
         test_samples = 0
@@ -41,7 +45,9 @@ def compute_accuracy(model, loader):
 def compute_f1score(model, loader):
     all_true_labels = []
     all_pred_labels = []
-
+    model.eval()
+    if torch.cuda.is_available():
+        model = model.cuda()
     with torch.no_grad():
         for imgs, labs in loader:
             if torch.cuda.is_available():
