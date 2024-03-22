@@ -41,7 +41,7 @@ Here is an example of how we can interpret the network by means of gradient.
 
 Here the sentence did not have any unknown word and the prediction of network was correct. We see that the gradient is distributed among the whole sentence, however, the the saturation increases in the middle. Which means that the network was mostly expecting the unkown word to appear in the middle of the sentence.
 
-<img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/0f955e04-ac4f-4cf8-88df-76eaadd74190" height='500' width='500'><img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/4ee8b179-0dab-4ce3-9cd8-7623eccb1025" height='500' width='500'>
+<img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/0f955e04-ac4f-4cf8-88df-76eaadd74190" height='400' width='400'><img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/4ee8b179-0dab-4ce3-9cd8-7623eccb1025" height='400' width='400'>
 
 Here the sentence has an unknown word close to the end, the network wrongly predicted the absence of an unknown word. Again we see even more saturated colors in the middle. This shows that model considered middle of the sentence which does not have an unknown word and we see a very steady pattern of saccades and fixations. 
 
