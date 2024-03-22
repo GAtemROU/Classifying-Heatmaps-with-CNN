@@ -1,304 +1,304 @@
 Fold 0
 ['10', '11', '13', '14']
-Epoch [1], Loss: 0.9467, Val acc: 0.75
-Epoch [2], Loss: 0.3098, Val acc: 0.89
-Epoch [3], Loss: 0.2619, Val acc: 0.93
-Epoch [4], Loss: 0.2456, Val acc: 0.91
-Epoch [5], Loss: 0.2185, Val acc: 0.95
-Epoch [6], Loss: 0.2647, Val acc: 0.93
-Epoch [7], Loss: 0.2123, Val acc: 0.93
-Epoch [8], Loss: 0.1942, Val acc: 0.93
-Epoch [9], Loss: 0.1685, Val acc: 0.93
-Epoch [10], Loss: 0.1739, Val acc: 0.88
-Epoch [11], Loss: 0.1705, Val acc: 0.95
-Epoch [12], Loss: 0.1911, Val acc: 0.95
-Epoch [13], Loss: 0.1713, Val acc: 0.93
-Epoch [14], Loss: 0.1668, Val acc: 0.95
-Epoch [15], Loss: 0.1409, Val acc: 0.93
-Epoch [16], Loss: 0.1407, Val acc: 0.98
-Epoch [17], Loss: 0.1229, Val acc: 0.98
-Epoch [18], Loss: 0.1478, Val acc: 0.95
-Epoch [19], Loss: 0.1259, Val acc: 0.93
-Epoch [20], Loss: 0.1978, Val acc: 0.98
-Epoch [21], Loss: 0.1167, Val acc: 0.98
-Epoch [22], Loss: 0.1213, Val acc: 0.95
-Epoch [23], Loss: 0.1065, Val acc: 0.93
-Epoch [24], Loss: 0.0951, Val acc: 0.95
-Epoch [25], Loss: 0.0937, Val acc: 0.90
-Epoch [26], Loss: 0.1235, Val acc: 0.98
-Epoch [27], Loss: 0.0750, Val acc: 0.93
-Epoch [28], Loss: 0.1181, Val acc: 0.93
-Epoch [29], Loss: 0.0881, Val acc: 0.93
-Epoch [30], Loss: 0.0777, Val acc: 0.95
-Epoch [31], Loss: 0.0965, Val acc: 0.98
-Epoch [32], Loss: 0.0980, Val acc: 0.95
-Epoch [33], Loss: 0.0994, Val acc: 0.98
-Epoch [34], Loss: 0.0701, Val acc: 0.93
-Epoch [35], Loss: 0.1408, Val acc: 0.95
-Test accuracy: 0.8636, F1 score: 0.8588
+Epoch [1], Loss: 19.4181, Val acc: 0.25
+Epoch [2], Loss: 8.9236, Val acc: 0.57
+Epoch [3], Loss: 6.3121, Val acc: 0.86
+Epoch [4], Loss: 4.6461, Val acc: 0.89
+Epoch [5], Loss: 6.4130, Val acc: 0.91
+Epoch [6], Loss: 8.5287, Val acc: 0.93
+Epoch [7], Loss: 7.6415, Val acc: 0.97
+Epoch [8], Loss: 4.9392, Val acc: 0.93
+Epoch [9], Loss: 1.4519, Val acc: 0.93
+Epoch [10], Loss: 2.2377, Val acc: 0.88
+Epoch [11], Loss: 3.0854, Val acc: 0.95
+Epoch [12], Loss: 1.4255, Val acc: 0.98
+Epoch [13], Loss: 0.8369, Val acc: 0.95
+Epoch [14], Loss: 1.4588, Val acc: 0.91
+Epoch [15], Loss: 6.5642, Val acc: 0.91
+Epoch [16], Loss: 1.0653, Val acc: 0.98
+Epoch [17], Loss: 2.2239, Val acc: 0.95
+Epoch [18], Loss: 0.6836, Val acc: 0.93
+Epoch [19], Loss: 0.5577, Val acc: 0.98
+Epoch [20], Loss: 0.3070, Val acc: 0.98
+Epoch [21], Loss: 0.4691, Val acc: 0.95
+Epoch [22], Loss: 0.2452, Val acc: 0.95
+Epoch [23], Loss: 0.1019, Val acc: 0.98
+Epoch [24], Loss: 0.0510, Val acc: 0.95
+Epoch [25], Loss: 0.0005, Val acc: 0.95
+Epoch [26], Loss: 0.2346, Val acc: 0.98
+Epoch [27], Loss: 0.1268, Val acc: 0.95
+Epoch [28], Loss: 0.4403, Val acc: 1.00
+Epoch [29], Loss: 0.2252, Val acc: 0.98
+Epoch [30], Loss: 0.3499, Val acc: 1.00
+Epoch [31], Loss: 0.0041, Val acc: 0.98
+Epoch [32], Loss: 0.0380, Val acc: 0.95
+Epoch [33], Loss: 0.1212, Val acc: 0.98
+Epoch [34], Loss: 0.5994, Val acc: 0.95
+Epoch [35], Loss: 0.9230, Val acc: 0.93
+Test accuracy: 0.8864, F1 score: 0.8845
 Confusion matrices:
-{'10': array([[7, 1],
+{'10': array([[6, 2],
        [2, 1]]), '11': array([[9, 0],
        [0, 2]]), '13': array([[8, 0],
-       [0, 3]]), '14': array([[7, 1],
-       [2, 1]])}
+       [0, 3]]), '14': array([[8, 0],
+       [1, 2]])}
 Fold 1
 ['15', '16', '17', '18']
-Epoch [1], Loss: 2.0721, Val acc: 0.75
-Epoch [2], Loss: 0.2895, Val acc: 0.89
-Epoch [3], Loss: 0.2697, Val acc: 0.89
-Epoch [4], Loss: 0.2735, Val acc: 0.89
-Epoch [5], Loss: 0.2935, Val acc: 0.86
-Epoch [6], Loss: 0.2467, Val acc: 0.85
-Epoch [7], Loss: 0.2888, Val acc: 0.90
-Epoch [8], Loss: 0.2424, Val acc: 0.90
-Epoch [9], Loss: 0.2079, Val acc: 0.85
-Epoch [10], Loss: 0.2177, Val acc: 0.90
-Epoch [11], Loss: 0.2328, Val acc: 0.95
-Epoch [12], Loss: 0.2321, Val acc: 0.95
-Epoch [13], Loss: 0.2049, Val acc: 0.93
-Epoch [14], Loss: 0.2341, Val acc: 0.91
-Epoch [15], Loss: 0.2058, Val acc: 0.91
-Epoch [16], Loss: 0.2037, Val acc: 0.95
-Epoch [17], Loss: 0.2008, Val acc: 0.95
-Epoch [18], Loss: 0.1653, Val acc: 0.90
-Epoch [19], Loss: 0.2060, Val acc: 0.98
-Epoch [20], Loss: 0.1815, Val acc: 0.98
-Epoch [21], Loss: 0.1917, Val acc: 0.98
-Epoch [22], Loss: 0.1501, Val acc: 0.95
-Epoch [23], Loss: 0.1959, Val acc: 0.93
-Epoch [24], Loss: 0.1702, Val acc: 0.93
-Epoch [25], Loss: 0.1472, Val acc: 0.90
-Epoch [26], Loss: 0.1783, Val acc: 0.95
-Epoch [27], Loss: 0.1294, Val acc: 0.93
-Epoch [28], Loss: 0.1273, Val acc: 0.93
-Epoch [29], Loss: 0.1209, Val acc: 0.90
-Epoch [30], Loss: 0.0919, Val acc: 0.90
-Epoch [31], Loss: 0.1305, Val acc: 0.93
-Epoch [32], Loss: 0.1253, Val acc: 0.93
-Epoch [33], Loss: 0.1440, Val acc: 0.95
-Epoch [34], Loss: 0.1148, Val acc: 0.93
-Epoch [35], Loss: 0.1289, Val acc: 0.93
-Test accuracy: 0.9318, F1 score: 0.9328
+Epoch [1], Loss: 18.4036, Val acc: 0.75
+Epoch [2], Loss: 8.3960, Val acc: 0.77
+Epoch [3], Loss: 5.7204, Val acc: 0.75
+Epoch [4], Loss: 10.2098, Val acc: 0.82
+Epoch [5], Loss: 4.6803, Val acc: 0.84
+Epoch [6], Loss: 4.2538, Val acc: 0.90
+Epoch [7], Loss: 6.4677, Val acc: 0.90
+Epoch [8], Loss: 6.1808, Val acc: 0.85
+Epoch [9], Loss: 3.1043, Val acc: 0.88
+Epoch [10], Loss: 2.2653, Val acc: 0.88
+Epoch [11], Loss: 4.9450, Val acc: 0.93
+Epoch [12], Loss: 3.9115, Val acc: 0.93
+Epoch [13], Loss: 2.9133, Val acc: 0.91
+Epoch [14], Loss: 5.7952, Val acc: 0.91
+Epoch [15], Loss: 1.9914, Val acc: 0.93
+Epoch [16], Loss: 2.0803, Val acc: 0.90
+Epoch [17], Loss: 0.7894, Val acc: 1.00
+Epoch [18], Loss: 0.7100, Val acc: 1.00
+Epoch [19], Loss: 0.8576, Val acc: 0.90
+Epoch [20], Loss: 3.2846, Val acc: 0.98
+Epoch [21], Loss: 2.3506, Val acc: 0.95
+Epoch [22], Loss: 0.8663, Val acc: 0.98
+Epoch [23], Loss: 0.5068, Val acc: 0.98
+Epoch [24], Loss: 0.8911, Val acc: 0.98
+Epoch [25], Loss: 0.0317, Val acc: 0.98
+Epoch [26], Loss: 0.2935, Val acc: 0.98
+Epoch [27], Loss: 0.1604, Val acc: 1.00
+Epoch [28], Loss: 0.3144, Val acc: 0.98
+Epoch [29], Loss: 0.0690, Val acc: 0.95
+Epoch [30], Loss: 0.1381, Val acc: 0.95
+Epoch [31], Loss: 0.2165, Val acc: 1.00
+Epoch [32], Loss: 1.7658, Val acc: 0.90
+Epoch [33], Loss: 0.6167, Val acc: 0.98
+Epoch [34], Loss: 0.1094, Val acc: 0.98
+Epoch [35], Loss: 0.0003, Val acc: 1.00
+Test accuracy: 0.9545, F1 score: 0.9545
 Confusion matrices:
-{'15': array([[8, 1],
+{'15': array([[9, 0],
        [0, 2]]), '16': array([[8, 0],
        [0, 3]]), '17': array([[7, 1],
        [0, 3]]), '18': array([[8, 0],
        [1, 2]])}
 Fold 2
 ['19', '2', '20', '21']
-Epoch [1], Loss: 1.6216, Val acc: 0.75
-Epoch [2], Loss: 0.2783, Val acc: 0.91
-Epoch [3], Loss: 0.2644, Val acc: 0.91
-Epoch [4], Loss: 0.2303, Val acc: 0.86
-Epoch [5], Loss: 0.2551, Val acc: 0.91
-Epoch [6], Loss: 0.2760, Val acc: 0.91
-Epoch [7], Loss: 0.2451, Val acc: 0.95
-Epoch [8], Loss: 0.2211, Val acc: 0.91
-Epoch [9], Loss: 0.2320, Val acc: 0.93
-Epoch [10], Loss: 0.1960, Val acc: 0.95
-Epoch [11], Loss: 0.2213, Val acc: 0.89
-Epoch [12], Loss: 0.2215, Val acc: 0.93
-Epoch [13], Loss: 0.2328, Val acc: 0.98
-Epoch [14], Loss: 0.1926, Val acc: 0.93
-Epoch [15], Loss: 0.1670, Val acc: 0.93
-Epoch [16], Loss: 0.2723, Val acc: 0.79
-Epoch [17], Loss: 0.4131, Val acc: 0.93
-Epoch [18], Loss: 0.4030, Val acc: 0.26
-Epoch [19], Loss: 0.7308, Val acc: 0.93
-Epoch [20], Loss: 0.2408, Val acc: 0.90
-Epoch [21], Loss: 0.2089, Val acc: 0.81
-Epoch [22], Loss: 0.3017, Val acc: 0.90
-Epoch [23], Loss: 0.1719, Val acc: 0.93
-Epoch [24], Loss: 0.1730, Val acc: 0.90
-Epoch [25], Loss: 0.1525, Val acc: 0.90
-Epoch [26], Loss: 0.1501, Val acc: 0.95
-Epoch [27], Loss: 0.1898, Val acc: 0.74
-Epoch [28], Loss: 0.1770, Val acc: 0.93
-Epoch [29], Loss: 0.1251, Val acc: 0.93
-Epoch [30], Loss: 0.1052, Val acc: 0.93
-Epoch [31], Loss: 0.1603, Val acc: 0.95
-Epoch [32], Loss: 0.1292, Val acc: 0.95
-Epoch [33], Loss: 0.1526, Val acc: 0.88
-Epoch [34], Loss: 0.1456, Val acc: 0.98
-Epoch [35], Loss: 0.1375, Val acc: 0.95
-Test accuracy: 0.9500, F1 score: 0.9480
+Epoch [1], Loss: 29.8128, Val acc: 0.25
+Epoch [2], Loss: 7.8174, Val acc: 0.61
+Epoch [3], Loss: 4.3680, Val acc: 0.34
+Epoch [4], Loss: 14.3277, Val acc: 0.89
+Epoch [5], Loss: 5.5212, Val acc: 0.84
+Epoch [6], Loss: 5.6320, Val acc: 0.98
+Epoch [7], Loss: 6.4969, Val acc: 0.91
+Epoch [8], Loss: 5.0398, Val acc: 0.84
+Epoch [9], Loss: 2.9161, Val acc: 0.89
+Epoch [10], Loss: 2.2870, Val acc: 0.82
+Epoch [11], Loss: 5.4914, Val acc: 0.95
+Epoch [12], Loss: 11.4633, Val acc: 0.89
+Epoch [13], Loss: 8.1880, Val acc: 0.95
+Epoch [14], Loss: 3.1264, Val acc: 0.89
+Epoch [15], Loss: 3.0568, Val acc: 0.91
+Epoch [16], Loss: 4.5076, Val acc: 0.74
+Epoch [17], Loss: 19.7449, Val acc: 0.90
+Epoch [18], Loss: 9.3381, Val acc: 0.26
+Epoch [19], Loss: 49.3351, Val acc: 0.88
+Epoch [20], Loss: 17.6659, Val acc: 0.88
+Epoch [21], Loss: 6.1263, Val acc: 0.90
+Epoch [22], Loss: 9.4874, Val acc: 0.88
+Epoch [23], Loss: 3.1091, Val acc: 0.74
+Epoch [24], Loss: 8.1758, Val acc: 0.86
+Epoch [25], Loss: 2.4687, Val acc: 0.88
+Epoch [26], Loss: 3.1670, Val acc: 0.95
+Epoch [27], Loss: 1.7380, Val acc: 0.86
+Epoch [28], Loss: 1.8482, Val acc: 0.95
+Epoch [29], Loss: 3.6821, Val acc: 0.93
+Epoch [30], Loss: 1.6572, Val acc: 0.93
+Epoch [31], Loss: 3.4174, Val acc: 0.95
+Epoch [32], Loss: 3.9696, Val acc: 0.93
+Epoch [33], Loss: 3.4472, Val acc: 0.83
+Epoch [34], Loss: 11.2568, Val acc: 0.90
+Epoch [35], Loss: 6.2919, Val acc: 0.95
+Test accuracy: 0.9000, F1 score: 0.8961
 Confusion matrices:
 {'19': array([[9, 0],
-       [1, 1]]), '2': array([[8, 0],
+       [2, 0]]), '2': array([[8, 0],
        [0, 3]]), '20': array([[5, 0],
-       [1, 1]]), '21': array([[8, 0],
+       [1, 1]]), '21': array([[7, 1],
        [0, 3]])}
 Fold 3
 ['22', '23', '24', '25']
-Epoch [1], Loss: 1.6661, Val acc: 0.75
-Epoch [2], Loss: 0.3055, Val acc: 0.86
-Epoch [3], Loss: 0.2657, Val acc: 0.91
-Epoch [4], Loss: 0.2675, Val acc: 0.89
-Epoch [5], Loss: 0.2419, Val acc: 0.84
-Epoch [6], Loss: 0.2628, Val acc: 0.98
-Epoch [7], Loss: 0.2360, Val acc: 0.95
-Epoch [8], Loss: 0.2585, Val acc: 0.98
-Epoch [9], Loss: 0.2148, Val acc: 0.98
-Epoch [10], Loss: 0.2314, Val acc: 0.93
-Epoch [11], Loss: 0.2378, Val acc: 0.95
-Epoch [12], Loss: 0.2302, Val acc: 0.95
-Epoch [13], Loss: 0.2035, Val acc: 0.95
-Epoch [14], Loss: 0.2181, Val acc: 0.95
-Epoch [15], Loss: 0.1774, Val acc: 0.95
-Epoch [16], Loss: 0.1918, Val acc: 0.95
-Epoch [17], Loss: 0.2203, Val acc: 0.95
-Epoch [18], Loss: 0.1560, Val acc: 0.90
-Epoch [19], Loss: 0.1698, Val acc: 0.95
-Epoch [20], Loss: 0.1704, Val acc: 0.95
-Epoch [21], Loss: 0.1604, Val acc: 0.95
-Epoch [22], Loss: 0.1480, Val acc: 0.90
-Epoch [23], Loss: 0.1504, Val acc: 0.93
-Epoch [24], Loss: 0.1450, Val acc: 0.90
-Epoch [25], Loss: 0.1548, Val acc: 0.88
-Epoch [26], Loss: 0.1609, Val acc: 0.90
-Epoch [27], Loss: 0.1110, Val acc: 0.90
-Epoch [28], Loss: 0.1137, Val acc: 0.95
-Epoch [29], Loss: 0.1067, Val acc: 0.90
-Epoch [30], Loss: 0.1299, Val acc: 0.88
-Epoch [31], Loss: 0.1459, Val acc: 1.00
-Epoch [32], Loss: 0.1439, Val acc: 0.98
-Epoch [33], Loss: 0.1188, Val acc: 0.98
-Epoch [34], Loss: 0.1466, Val acc: 0.98
-Epoch [35], Loss: 0.1088, Val acc: 0.98
-Test accuracy: 0.8636, F1 score: 0.8672
+Epoch [1], Loss: 21.7420, Val acc: 0.41
+Epoch [2], Loss: 11.2328, Val acc: 0.48
+Epoch [3], Loss: 6.9244, Val acc: 0.86
+Epoch [4], Loss: 6.3350, Val acc: 0.84
+Epoch [5], Loss: 4.5830, Val acc: 0.89
+Epoch [6], Loss: 9.2381, Val acc: 0.91
+Epoch [7], Loss: 8.6763, Val acc: 0.86
+Epoch [8], Loss: 9.6724, Val acc: 0.93
+Epoch [9], Loss: 4.9300, Val acc: 0.89
+Epoch [10], Loss: 16.5313, Val acc: 0.95
+Epoch [11], Loss: 17.5043, Val acc: 0.93
+Epoch [12], Loss: 6.7851, Val acc: 0.90
+Epoch [13], Loss: 7.4193, Val acc: 0.95
+Epoch [14], Loss: 4.2614, Val acc: 0.95
+Epoch [15], Loss: 3.4683, Val acc: 0.90
+Epoch [16], Loss: 4.1644, Val acc: 0.88
+Epoch [17], Loss: 3.8816, Val acc: 0.98
+Epoch [18], Loss: 2.8128, Val acc: 0.93
+Epoch [19], Loss: 3.0973, Val acc: 0.95
+Epoch [20], Loss: 2.9911, Val acc: 0.93
+Epoch [21], Loss: 1.2603, Val acc: 0.93
+Epoch [22], Loss: 0.5897, Val acc: 0.90
+Epoch [23], Loss: 0.8307, Val acc: 0.90
+Epoch [24], Loss: 2.6415, Val acc: 0.98
+Epoch [25], Loss: 1.4722, Val acc: 0.90
+Epoch [26], Loss: 2.0516, Val acc: 0.95
+Epoch [27], Loss: 0.5212, Val acc: 0.95
+Epoch [28], Loss: 0.4363, Val acc: 0.95
+Epoch [29], Loss: 0.8460, Val acc: 0.93
+Epoch [30], Loss: 0.3296, Val acc: 0.95
+Epoch [31], Loss: 0.6141, Val acc: 0.95
+Epoch [32], Loss: 1.0328, Val acc: 0.98
+Epoch [33], Loss: 0.5407, Val acc: 0.98
+Epoch [34], Loss: 1.2645, Val acc: 0.93
+Epoch [35], Loss: 0.2252, Val acc: 0.98
+Test accuracy: 0.9091, F1 score: 0.9016
 Confusion matrices:
 {'22': array([[8, 0],
-       [0, 3]]), '23': array([[8, 1],
-       [0, 2]]), '24': array([[7, 1],
-       [2, 1]]), '25': array([[6, 2],
+       [1, 2]]), '23': array([[9, 0],
+       [1, 1]]), '24': array([[8, 0],
+       [2, 1]]), '25': array([[8, 0],
        [0, 3]])}
 Fold 4
 ['26', '28', '29', '3']
-Epoch [1], Loss: 1.8722, Val acc: 0.75
-Epoch [2], Loss: 0.3094, Val acc: 0.89
-Epoch [3], Loss: 0.2841, Val acc: 0.89
-Epoch [4], Loss: 0.2907, Val acc: 0.89
-Epoch [5], Loss: 0.2345, Val acc: 0.89
-Epoch [6], Loss: 0.2867, Val acc: 0.91
-Epoch [7], Loss: 0.2448, Val acc: 0.95
-Epoch [8], Loss: 0.2431, Val acc: 0.93
-Epoch [9], Loss: 0.2225, Val acc: 0.93
-Epoch [10], Loss: 0.2097, Val acc: 0.93
-Epoch [11], Loss: 0.2300, Val acc: 0.90
-Epoch [12], Loss: 0.2519, Val acc: 0.88
-Epoch [13], Loss: 0.2374, Val acc: 0.93
-Epoch [14], Loss: 0.1978, Val acc: 0.95
-Epoch [15], Loss: 0.2016, Val acc: 0.85
-Epoch [16], Loss: 0.3379, Val acc: 0.93
-Epoch [17], Loss: 0.2011, Val acc: 0.95
-Epoch [18], Loss: 0.2054, Val acc: 0.91
-Epoch [19], Loss: 0.1613, Val acc: 0.93
-Epoch [20], Loss: 0.1917, Val acc: 0.93
-Epoch [21], Loss: 0.1379, Val acc: 0.95
-Epoch [22], Loss: 0.1517, Val acc: 0.95
-Epoch [23], Loss: 0.1547, Val acc: 0.90
-Epoch [24], Loss: 0.1463, Val acc: 0.90
-Epoch [25], Loss: 0.1545, Val acc: 0.88
-Epoch [26], Loss: 0.1242, Val acc: 0.90
-Epoch [27], Loss: 0.1162, Val acc: 0.93
-Epoch [28], Loss: 0.1351, Val acc: 0.93
-Epoch [29], Loss: 0.1027, Val acc: 0.93
-Epoch [30], Loss: 0.0873, Val acc: 0.93
-Epoch [31], Loss: 0.1466, Val acc: 0.93
-Epoch [32], Loss: 0.1615, Val acc: 0.98
-Epoch [33], Loss: 0.0983, Val acc: 0.98
-Epoch [34], Loss: 0.0993, Val acc: 0.93
-Epoch [35], Loss: 0.1160, Val acc: 0.98
-Test accuracy: 0.9048, F1 score: 0.9015
+Epoch [1], Loss: 11.9811, Val acc: 0.25
+Epoch [2], Loss: 5.8813, Val acc: 0.77
+Epoch [3], Loss: 6.9785, Val acc: 0.50
+Epoch [4], Loss: 9.7978, Val acc: 0.89
+Epoch [5], Loss: 3.4971, Val acc: 0.89
+Epoch [6], Loss: 4.6098, Val acc: 0.86
+Epoch [7], Loss: 7.3606, Val acc: 0.98
+Epoch [8], Loss: 6.0718, Val acc: 0.77
+Epoch [9], Loss: 5.2187, Val acc: 0.80
+Epoch [10], Loss: 5.1907, Val acc: 0.91
+Epoch [11], Loss: 4.4899, Val acc: 0.90
+Epoch [12], Loss: 3.8871, Val acc: 0.90
+Epoch [13], Loss: 3.9308, Val acc: 0.97
+Epoch [14], Loss: 1.3280, Val acc: 0.97
+Epoch [15], Loss: 1.0000, Val acc: 0.78
+Epoch [16], Loss: 13.5992, Val acc: 0.86
+Epoch [17], Loss: 5.0318, Val acc: 0.93
+Epoch [18], Loss: 4.1573, Val acc: 0.89
+Epoch [19], Loss: 2.1241, Val acc: 0.91
+Epoch [20], Loss: 4.2152, Val acc: 0.98
+Epoch [21], Loss: 1.8372, Val acc: 0.93
+Epoch [22], Loss: 0.9407, Val acc: 0.95
+Epoch [23], Loss: 2.4490, Val acc: 0.95
+Epoch [24], Loss: 0.7595, Val acc: 0.88
+Epoch [25], Loss: 0.7862, Val acc: 0.95
+Epoch [26], Loss: 0.6447, Val acc: 0.98
+Epoch [27], Loss: 0.6074, Val acc: 0.93
+Epoch [28], Loss: 0.5217, Val acc: 0.98
+Epoch [29], Loss: 0.6176, Val acc: 0.93
+Epoch [30], Loss: 0.0671, Val acc: 0.95
+Epoch [31], Loss: 0.5799, Val acc: 1.00
+Epoch [32], Loss: 2.0747, Val acc: 0.98
+Epoch [33], Loss: 0.5795, Val acc: 0.98
+Epoch [34], Loss: 0.5208, Val acc: 0.98
+Epoch [35], Loss: 0.1716, Val acc: 1.00
+Test accuracy: 0.9286, F1 score: 0.9246
 Confusion matrices:
 {'26': array([[6, 0],
        [1, 2]]), '28': array([[8, 0],
        [1, 2]]), '29': array([[8, 0],
-       [0, 3]]), '3': array([[8, 1],
+       [0, 3]]), '3': array([[9, 0],
        [1, 1]])}
 Fold 5
 ['30', '31', '32', '33']
-Epoch [1], Loss: 2.0523, Val acc: 0.77
-Epoch [2], Loss: 0.2621, Val acc: 0.86
-Epoch [3], Loss: 0.2640, Val acc: 0.91
-Epoch [4], Loss: 0.2448, Val acc: 0.91
-Epoch [5], Loss: 0.2248, Val acc: 0.91
-Epoch [6], Loss: 0.2573, Val acc: 0.98
-Epoch [7], Loss: 0.2297, Val acc: 0.91
-Epoch [8], Loss: 0.2131, Val acc: 0.98
-Epoch [9], Loss: 0.2478, Val acc: 0.98
-Epoch [10], Loss: 0.2075, Val acc: 0.95
-Epoch [11], Loss: 0.2927, Val acc: 0.30
-Epoch [12], Loss: 0.4678, Val acc: 0.93
-Epoch [13], Loss: 0.2374, Val acc: 0.82
-Epoch [14], Loss: 0.2065, Val acc: 0.93
-Epoch [15], Loss: 0.1889, Val acc: 0.93
-Epoch [16], Loss: 0.2083, Val acc: 0.95
-Epoch [17], Loss: 0.1874, Val acc: 0.95
-Epoch [18], Loss: 0.1937, Val acc: 0.93
-Epoch [19], Loss: 0.1714, Val acc: 0.91
-Epoch [20], Loss: 0.1749, Val acc: 0.89
-Epoch [21], Loss: 0.2010, Val acc: 0.95
-Epoch [22], Loss: 0.2296, Val acc: 0.98
-Epoch [23], Loss: 0.1578, Val acc: 0.98
-Epoch [24], Loss: 0.1541, Val acc: 0.95
-Epoch [25], Loss: 0.2002, Val acc: 0.95
-Epoch [26], Loss: 0.1336, Val acc: 0.93
-Epoch [27], Loss: 0.1299, Val acc: 0.98
-Epoch [28], Loss: 0.1370, Val acc: 0.90
-Epoch [29], Loss: 0.1176, Val acc: 0.93
-Epoch [30], Loss: 0.1097, Val acc: 0.93
-Epoch [31], Loss: 0.1367, Val acc: 0.98
-Epoch [32], Loss: 0.1175, Val acc: 0.98
-Epoch [33], Loss: 0.0956, Val acc: 0.98
-Epoch [34], Loss: 0.1199, Val acc: 0.93
-Epoch [35], Loss: 0.1162, Val acc: 0.95
-Test accuracy: 0.8095, F1 score: 0.8095
+Epoch [1], Loss: 13.1473, Val acc: 0.25
+Epoch [2], Loss: 46.9880, Val acc: 0.91
+Epoch [3], Loss: 5.6448, Val acc: 0.91
+Epoch [4], Loss: 9.2569, Val acc: 0.91
+Epoch [5], Loss: 6.5222, Val acc: 0.91
+Epoch [6], Loss: 7.7677, Val acc: 0.93
+Epoch [7], Loss: 7.6792, Val acc: 0.89
+Epoch [8], Loss: 4.4944, Val acc: 0.82
+Epoch [9], Loss: 8.7256, Val acc: 0.82
+Epoch [10], Loss: 10.3564, Val acc: 0.91
+Epoch [11], Loss: 7.7044, Val acc: 0.25
+Epoch [12], Loss: 43.4644, Val acc: 0.85
+Epoch [13], Loss: 5.7607, Val acc: 0.85
+Epoch [14], Loss: 2.3015, Val acc: 0.93
+Epoch [15], Loss: 5.2353, Val acc: 0.95
+Epoch [16], Loss: 4.8488, Val acc: 0.91
+Epoch [17], Loss: 3.2639, Val acc: 0.93
+Epoch [18], Loss: 1.9970, Val acc: 0.95
+Epoch [19], Loss: 1.8631, Val acc: 0.95
+Epoch [20], Loss: 1.5975, Val acc: 0.95
+Epoch [21], Loss: 3.1050, Val acc: 0.95
+Epoch [22], Loss: 1.3290, Val acc: 0.93
+Epoch [23], Loss: 2.3865, Val acc: 0.98
+Epoch [24], Loss: 0.8008, Val acc: 1.00
+Epoch [25], Loss: 4.5946, Val acc: 0.86
+Epoch [26], Loss: 2.5702, Val acc: 0.98
+Epoch [27], Loss: 0.3851, Val acc: 0.98
+Epoch [28], Loss: 4.2939, Val acc: 0.86
+Epoch [29], Loss: 1.6738, Val acc: 0.95
+Epoch [30], Loss: 0.2757, Val acc: 0.95
+Epoch [31], Loss: 0.5508, Val acc: 0.98
+Epoch [32], Loss: 0.5783, Val acc: 0.98
+Epoch [33], Loss: 0.2032, Val acc: 0.98
+Epoch [34], Loss: 0.1107, Val acc: 0.98
+Epoch [35], Loss: 0.2317, Val acc: 0.98
+Test accuracy: 0.8571, F1 score: 0.8613
 Confusion matrices:
-{'30': array([[7, 1],
-       [3, 0]]), '31': array([[7, 1],
+{'30': array([[6, 2],
+       [2, 1]]), '31': array([[8, 0],
        [0, 3]]), '32': array([[7, 1],
-       [1, 2]]), '33': array([[7, 1],
+       [0, 3]]), '33': array([[7, 1],
        [0, 1]])}
 Fold 6
 ['34', '35', '4', '5']
-Epoch [1], Loss: 1.7224, Val acc: 0.75
-Epoch [2], Loss: 0.2870, Val acc: 0.84
-Epoch [3], Loss: 0.2630, Val acc: 0.89
-Epoch [4], Loss: 0.2535, Val acc: 0.91
-Epoch [5], Loss: 0.2624, Val acc: 0.91
-Epoch [6], Loss: 0.2390, Val acc: 0.86
-Epoch [7], Loss: 0.2319, Val acc: 0.95
-Epoch [8], Loss: 0.2401, Val acc: 0.93
-Epoch [9], Loss: 0.2325, Val acc: 0.86
-Epoch [10], Loss: 0.2718, Val acc: 0.86
-Epoch [11], Loss: 0.1913, Val acc: 0.88
-Epoch [12], Loss: 0.3005, Val acc: 0.75
-Epoch [13], Loss: 0.4256, Val acc: 0.90
-Epoch [14], Loss: 0.2164, Val acc: 0.88
-Epoch [15], Loss: 0.2254, Val acc: 0.90
-Epoch [16], Loss: 0.2364, Val acc: 0.95
-Epoch [17], Loss: 0.1870, Val acc: 0.95
-Epoch [18], Loss: 0.1871, Val acc: 0.86
-Epoch [19], Loss: 0.1627, Val acc: 0.95
-Epoch [20], Loss: 0.1892, Val acc: 0.89
-Epoch [21], Loss: 0.1707, Val acc: 0.95
-Epoch [22], Loss: 0.1850, Val acc: 0.98
-Epoch [23], Loss: 0.1699, Val acc: 0.93
-Epoch [24], Loss: 0.1553, Val acc: 0.98
-Epoch [25], Loss: 0.1386, Val acc: 0.98
-Epoch [26], Loss: 0.1405, Val acc: 0.95
-Epoch [27], Loss: 0.1613, Val acc: 0.98
-Epoch [28], Loss: 0.1233, Val acc: 0.90
-Epoch [29], Loss: 0.1233, Val acc: 0.95
-Epoch [30], Loss: 0.1241, Val acc: 0.93
-Epoch [31], Loss: 0.1202, Val acc: 0.98
-Epoch [32], Loss: 0.1667, Val acc: 0.88
-Epoch [33], Loss: 0.1468, Val acc: 0.98
-Epoch [34], Loss: 0.0940, Val acc: 0.98
-Epoch [35], Loss: 0.0898, Val acc: 0.98
+Epoch [1], Loss: 10.8429, Val acc: 0.25
+Epoch [2], Loss: 8.2129, Val acc: 0.73
+Epoch [3], Loss: 4.1016, Val acc: 0.66
+Epoch [4], Loss: 5.2091, Val acc: 0.89
+Epoch [5], Loss: 2.1542, Val acc: 0.89
+Epoch [6], Loss: 4.9371, Val acc: 0.82
+Epoch [7], Loss: 5.5054, Val acc: 0.95
+Epoch [8], Loss: 1.5965, Val acc: 0.93
+Epoch [9], Loss: 2.3600, Val acc: 0.89
+Epoch [10], Loss: 1.8306, Val acc: 0.89
+Epoch [11], Loss: 2.3696, Val acc: 0.93
+Epoch [12], Loss: 7.6983, Val acc: 0.78
+Epoch [13], Loss: 19.0294, Val acc: 0.93
+Epoch [14], Loss: 9.3761, Val acc: 0.90
+Epoch [15], Loss: 4.7522, Val acc: 0.95
+Epoch [16], Loss: 3.0999, Val acc: 0.95
+Epoch [17], Loss: 5.8314, Val acc: 0.95
+Epoch [18], Loss: 3.5481, Val acc: 0.98
+Epoch [19], Loss: 1.1365, Val acc: 0.95
+Epoch [20], Loss: 2.5541, Val acc: 0.98
+Epoch [21], Loss: 0.9657, Val acc: 1.00
+Epoch [22], Loss: 0.7131, Val acc: 0.98
+Epoch [23], Loss: 0.6290, Val acc: 1.00
+Epoch [24], Loss: 0.1691, Val acc: 0.95
+Epoch [25], Loss: 0.1213, Val acc: 1.00
+Epoch [26], Loss: 0.1414, Val acc: 0.95
+Epoch [27], Loss: 0.0261, Val acc: 1.00
+Epoch [28], Loss: 0.0000, Val acc: 1.00
+Epoch [29], Loss: 0.1575, Val acc: 0.98
+Epoch [30], Loss: 0.2148, Val acc: 0.98
+Epoch [31], Loss: 0.4936, Val acc: 1.00
+Epoch [32], Loss: 0.0190, Val acc: 0.98
+Epoch [33], Loss: 0.0201, Val acc: 1.00
+Epoch [34], Loss: 0.0000, Val acc: 1.00
+Epoch [35], Loss: 0.0563, Val acc: 1.00
 Test accuracy: 0.8571, F1 score: 0.8503
 Confusion matrices:
 {'34': array([[9, 0],
@@ -308,45 +308,45 @@ Confusion matrices:
        [1, 2]])}
 Fold 7
 ['6', '7', '8', '9']
-Epoch [1], Loss: 2.9633, Val acc: 0.75
-Epoch [2], Loss: 0.3208, Val acc: 0.84
-Epoch [3], Loss: 0.3425, Val acc: 0.91
-Epoch [4], Loss: 0.2795, Val acc: 0.89
-Epoch [5], Loss: 0.2687, Val acc: 0.91
-Epoch [6], Loss: 0.2774, Val acc: 0.91
-Epoch [7], Loss: 0.2539, Val acc: 0.91
-Epoch [8], Loss: 0.2505, Val acc: 0.91
-Epoch [9], Loss: 0.2289, Val acc: 0.91
-Epoch [10], Loss: 0.2190, Val acc: 0.91
-Epoch [11], Loss: 0.2186, Val acc: 0.93
-Epoch [12], Loss: 0.2004, Val acc: 0.88
-Epoch [13], Loss: 0.2351, Val acc: 0.85
-Epoch [14], Loss: 0.2240, Val acc: 0.85
-Epoch [15], Loss: 0.2632, Val acc: 0.88
-Epoch [16], Loss: 0.2295, Val acc: 0.93
-Epoch [17], Loss: 0.2289, Val acc: 0.91
-Epoch [18], Loss: 0.1918, Val acc: 0.95
-Epoch [19], Loss: 0.1913, Val acc: 0.93
-Epoch [20], Loss: 0.1742, Val acc: 0.95
-Epoch [21], Loss: 0.1793, Val acc: 0.90
-Epoch [22], Loss: 0.1717, Val acc: 0.93
-Epoch [23], Loss: 0.1731, Val acc: 0.93
-Epoch [24], Loss: 0.1622, Val acc: 0.95
-Epoch [25], Loss: 0.1471, Val acc: 0.90
-Epoch [26], Loss: 0.1481, Val acc: 0.93
-Epoch [27], Loss: 0.1758, Val acc: 0.93
-Epoch [28], Loss: 0.1216, Val acc: 0.93
-Epoch [29], Loss: 0.1182, Val acc: 0.93
-Epoch [30], Loss: 0.0970, Val acc: 0.93
-Epoch [31], Loss: 0.1200, Val acc: 0.95
-Epoch [32], Loss: 0.1027, Val acc: 0.90
-Epoch [33], Loss: 0.1200, Val acc: 0.90
-Epoch [34], Loss: 0.1187, Val acc: 0.95
-Epoch [35], Loss: 0.1008, Val acc: 0.90
-Test accuracy: 0.9048, F1 score: 0.9048
+Epoch [1], Loss: 22.3441, Val acc: 0.59
+Epoch [2], Loss: 16.7540, Val acc: 0.80
+Epoch [3], Loss: 16.7791, Val acc: 0.89
+Epoch [4], Loss: 7.7465, Val acc: 0.82
+Epoch [5], Loss: 5.5671, Val acc: 0.82
+Epoch [6], Loss: 7.1946, Val acc: 0.93
+Epoch [7], Loss: 7.8815, Val acc: 0.93
+Epoch [8], Loss: 3.2106, Val acc: 0.86
+Epoch [9], Loss: 7.2964, Val acc: 0.91
+Epoch [10], Loss: 4.2389, Val acc: 0.86
+Epoch [11], Loss: 3.8827, Val acc: 0.38
+Epoch [12], Loss: 25.9935, Val acc: 0.93
+Epoch [13], Loss: 8.1384, Val acc: 0.93
+Epoch [14], Loss: 10.0139, Val acc: 0.38
+Epoch [15], Loss: 20.7811, Val acc: 0.90
+Epoch [16], Loss: 11.7028, Val acc: 0.98
+Epoch [17], Loss: 6.1564, Val acc: 0.98
+Epoch [18], Loss: 5.1420, Val acc: 1.00
+Epoch [19], Loss: 2.7541, Val acc: 0.95
+Epoch [20], Loss: 3.5325, Val acc: 1.00
+Epoch [21], Loss: 3.0168, Val acc: 1.00
+Epoch [22], Loss: 5.6712, Val acc: 0.98
+Epoch [23], Loss: 2.0657, Val acc: 0.98
+Epoch [24], Loss: 2.0478, Val acc: 0.93
+Epoch [25], Loss: 0.9138, Val acc: 0.98
+Epoch [26], Loss: 1.1362, Val acc: 0.93
+Epoch [27], Loss: 0.8062, Val acc: 0.86
+Epoch [28], Loss: 1.0418, Val acc: 0.86
+Epoch [29], Loss: 0.6214, Val acc: 0.88
+Epoch [30], Loss: 2.3648, Val acc: 0.90
+Epoch [31], Loss: 1.3776, Val acc: 0.93
+Epoch [32], Loss: 0.9062, Val acc: 0.93
+Epoch [33], Loss: 0.7406, Val acc: 0.98
+Epoch [34], Loss: 1.5098, Val acc: 0.88
+Epoch [35], Loss: 0.9870, Val acc: 0.90
+Test accuracy: 0.8810, F1 score: 0.8791
 Confusion matrices:
 {'6': array([[8, 0],
        [1, 2]]), '7': array([[7, 0],
        [0, 2]]), '8': array([[7, 1],
-       [1, 2]]), '9': array([[7, 1],
+       [2, 1]]), '9': array([[7, 1],
        [0, 3]])}
