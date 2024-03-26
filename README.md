@@ -1,6 +1,9 @@
 # Classifying Heatmaps with CNN
 
-This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). Here is an example of the input images:
+This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). 
+
+# About
+Here is an example of the input images:
 
 <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/6433069d-b4c7-428d-aa33-73f3c0cc83ae" height='100' width='650'> <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/8e51b992-1fb6-494f-9bca-b777458b69f2" height='100' width='650'>
 
@@ -25,7 +28,7 @@ Firstly, batchnormalization without learnable parameters was applied to the inpu
 Then, there are two convolutional layers followed by one fully connected layer. 
 
 Both convolutional layers look as follows:
-Conv->ReLU->Max Pool->Dropout
+Conv->ReLU->Max Pool->Dropout->Batchnorm
 
 The convolitions have sizes and strides of 3, 1 and 5, 2 respectively. 
 
@@ -47,9 +50,19 @@ Here the sentence has an unknown word in the center of it, but the behaviour of 
 
 <img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/475b2e5e-01f6-461e-8df9-c4e97feacf5c" height='400' width='400'><img src="https://github.com/GAtemROU/Classifying-Heatmaps-with-CNN/assets/105051372/15a15a82-80fe-4d89-9cda-946282083833" height='400' width='400'>
 
+# Getting Started
 
+## Raw Data
+The raw data can be downloaded via the link: https://drive.google.com/file/d/16a1fXU_DzUo5mCl-8mpJp-R7JaI086LO/view?usp=drive_link 
 
-
+Please locate the files into the data folder the resulting structure should look as follows:
+```Bash
+data/rawdata
+├── heatmap_fixed
+└── scanpaths_fixed
+```
+## Preprocess
+You can find the preprocessing scripts under 
 
 
 
