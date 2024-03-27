@@ -1,16 +1,16 @@
 import os
-from os.path import join
-
+from datetime import datetime
 
 class MyLogger:
 
-    def __init__(self, log_dir, name="log.txt"):
+    def __init__(self, log_dir, name=None):
+        if name is None:
+            self.name = datetime.now().strftime("log_%d.%m_%H:%M")
+        else:
+            self.name = name
         self.log_dir = log_dir
-        if os.path.exists(join(log_dir, name)):
-            os.remove(join(log_dir, name))
-        elif not os.path.exists(log_dir):
+        if not os.path.exists(log_dir):
             os.makedirs(log_dir)
-        self.name = name
         self.f1_list = []
         
     def log_epoch(self, epoch, loss, val_acc):
@@ -33,4 +33,4 @@ class MyLogger:
         with open(os.path.join(self.log_dir, file_name), "a") as f:
             f.write(self.f1_list.__str__() + '\n')
             if save_avg:
-                f.write(f'AVG: {sum(self.f1_list) / len(self.f1_list)}')
+                f.write(f'AVG: {sum(self.f1_list) / len(self.f1_list)}\n')
