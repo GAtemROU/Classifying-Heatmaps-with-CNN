@@ -7,7 +7,8 @@ from copy import deepcopy
 
 class Trainer:
 
-    def __init__(self, model, save_path, loss, train_loader=None, eval_loader=None, optimizer=None, logger=None, autosave=True):
+    def __init__(self, model, save_path, loss, train_loader=None, eval_loader=None, optimizer=None, logger=None,
+                 autosave=True, verbose=True):
         if torch.cuda.is_available():
             self.model = model.cuda()
         else:
@@ -17,11 +18,12 @@ class Trainer:
         self.save_path = save_path
         self.loss = loss
         self.optimizer = optimizer
-        self.logger=logger
+        self.logger = logger
         self.epoch = 0
         self.max_val_acc = 0.
         self.best_model_dict = None
         self.autosave = autosave
+        self.verbose = verbose
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
 
@@ -41,16 +43,18 @@ class Trainer:
         self.epoch += 1
         avg_loss = epoch_loss / len(self.train_loader)
         val_acc = self.evaluate()
-        print('{} --- Epoch [{}], Loss: {:.4f}, Val acc: {:.2f}'.format(
-            datetime.datetime.now().strftime("%d.%m %H:%M:%S"), self.epoch, avg_loss, val_acc * 100))
+        if self.verbose:
+            print('{} --- Epoch [{}], Loss: {:.4f}, Val acc: {:.2f}'.format(
+                datetime.datetime.now().strftime("%d.%m %H:%M:%S"), self.epoch, avg_loss, val_acc * 100))
         if self.logger is not None:
             self.logger.log_epoch(self.epoch, avg_loss, val_acc)
 
     def save_best_model(self):
-        if self.best_model_dict is None:
+        if self.best_model_dict is None and self.verbose:
             print("No best model found")
         else:
-            print("Saving best model to   {}".format(join(self.save_path, "best_model.pkl")))
+            if self.verbose:
+                print("Saving best model to   {}".format(join(self.save_path, "best_model.pkl")))
             torch.save(self.best_model_dict, join(self.save_path, "best_model.pkl"))
 
     def save_cur_model(self):
@@ -93,7 +97,7 @@ class Trainer:
 
     def set_optimizer(self, optimizer):
         self.optimizer = optimizer
-    
+
     def set_model(self, model):
         if torch.cuda.is_available():
             self.model = model.cuda()
