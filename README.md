@@ -129,7 +129,7 @@ Firstly, batchnormalization without learnable parameters was applied to the inpu
 Then, there are two convolutional layers followed by one fully connected layer. 
 
 Both convolutional layers look as follows:
-Conv->ReLU->Max Pool->Dropout->Batchnorm
+Conv->ReLU->Max Pool->Batchnorm->Dropout
 
 The convolitions have sizes and strides of 3, 1 and 5, 2 respectively. 
 
