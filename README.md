@@ -33,8 +33,10 @@ data/rawdata
 └── scanpaths_fixed
 ```
 ### Preprocess
-You can find the preprocessing script under the `data/preprocessing/preprocess_data.py`. Please, don't forget to specify the project path. If you would like to change the 
-preprocessing arguments, please take a look at `data/preprocessing/data_cropper.py`
+You can find the preprocessing script under the `data/preprocessing/preprocess_data.py`. 
+
+If you would like to change the 
+cropping arguments, please take a look at `data/preprocessing/data_cropper.py`
 
 ### Data class
 Dataset handler is located under `modules/dataset_handling.py`. It helps to manage the data, i.e. get a loader or a list of ids for certain participants. 
