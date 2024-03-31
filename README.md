@@ -1,4 +1,4 @@
-# Classifying Heatmaps with CNN
+# Interpretable Analysis of Eye Gaze Behavior During pseudoword Reading Using Convolutional Neural Networks
 
 This project solves classification problem by training CNNs on heatmaps and scanpathes from an eye tracking study (https://dl.acm.org/doi/10.1145/3588015.3590118). 
 
