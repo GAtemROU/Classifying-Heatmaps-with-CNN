@@ -26,3 +26,17 @@ class DatasetHandler:
     def get_loader(self, participants, batch_size=1, shuffle=True):
         return DataLoader(Subset(self.dataset, indices=self.get_ids(participants)), batch_size, shuffle=shuffle)
 
+    def get_instances(self, participants):
+        instances = {}
+        for participant in participants:
+            p_dict = {}
+            p_ids = self.get_ids(participant)
+            for p_id in p_ids:
+                img_path, target = self.dataset.imgs[p_id]
+                if p_dict.get(target) is None:
+                    p_dict[target] = []
+                p_dict[target].append(img_path)
+                instances[participant] = p_dict
+        return instances
+
+

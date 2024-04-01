@@ -7,7 +7,7 @@ from data_cropper import crop_scanpaths
 from data_cropper import crop_heatmaps
 
 
-def create_datasets(project_path, create_heatmaps=True, create_scanpaths=True):
+def create_datasets(project_path='../../', create_heatmaps=True, create_scanpaths=True):
     """
     Creates the preprocessed datasets.
     :param project_path: path to the project
@@ -26,5 +26,4 @@ def create_datasets(project_path, create_heatmaps=True, create_scanpaths=True):
 
 
 if __name__ == '__main__':
-    project_path = None
-    create_datasets(project_path, create_heatmaps=True, create_scanpaths=True)
+    create_datasets(create_heatmaps=True, create_scanpaths=True)

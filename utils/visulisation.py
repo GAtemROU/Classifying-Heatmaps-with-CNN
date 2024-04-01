@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import ConfusionMatrixDisplay
 
-def visualize_confusion_matrices(confusion_matrices):
+
+def plot_confusion_matrices(confusion_matrices):
     """
     Visualize confusion matrices and their sum.
 
@@ -47,3 +47,15 @@ def visualize_confusion_matrices(confusion_matrices):
     plt.ylabel("True Label")
     plt.show()
 
+
+def plot_loss_history(loss_history_dict):
+    plt.figure(figsize=(10, 6))
+    for fold, loss_history in loss_history_dict.items():
+        plt.plot(loss_history, label=f'Fold {fold}')
+
+    plt.title('Loss History for Different Folds')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.legend()
+    plt.grid(True, color='lightgray', linestyle='--', linewidth=0.5)
+    plt.show()
