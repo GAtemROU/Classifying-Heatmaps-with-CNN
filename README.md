@@ -61,10 +61,10 @@ Logging is done by `modules/logging.py`. During the training process, the logs a
 ```Bash
 experiments/scanpathsb_base_128
 ├── f1_history
-├── log_25.03_12:07
-├── log_25.03_12:12
-├── log_25.03_12:25
-└── log_25.03_12:43
+├── log_25.03_1207
+├── log_25.03_1212
+├── log_25.03_1225
+└── log_25.03_1243
 ```
 Here, one log corresponds to one full training, while the f1_history file has a history of each individual training, 
 however consecutive trainings, do not overwrite this information. This is useful when experimenting with hyperparameters.

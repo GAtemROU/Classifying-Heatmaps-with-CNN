@@ -6,7 +6,7 @@ class MyLogger:
 
     def __init__(self, log_dir, name=None):
         if name is None:
-            self.name = datetime.now().strftime("log_%d.%m_%H:%M")
+            self.name = datetime.now().strftime("log_%d.%m_%H%M")
         else:
             self.name = name
         self.log_dir = log_dir
