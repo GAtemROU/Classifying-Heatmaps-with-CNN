@@ -48,14 +48,13 @@ def plot_confusion_matrices(confusion_matrices):
     plt.show()
 
 
-def plot_loss_history(loss_history_dict):
+def plot_history(history_dict, metric):
     plt.figure(figsize=(10, 6))
-    for fold, loss_history in loss_history_dict.items():
+    for fold, loss_history in history_dict.items():
         plt.plot(loss_history, label=f'Fold {fold}')
 
-    plt.title('Loss History for Different Folds')
     plt.xlabel('Epoch')
-    plt.ylabel('Loss')
+    plt.ylabel(metric)
     plt.legend()
     plt.grid(True, color='lightgray', linestyle='--', linewidth=0.5)
     plt.show()
