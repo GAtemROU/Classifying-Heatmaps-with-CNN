@@ -1,4 +1,17 @@
 class MyKFoldCV:
+    """
+    Manages cross validation on participants.
+
+    Attributes:
+        dataset_handler: DatasetHandler object
+        k: k parameter of cross validation
+        ignore: list of participants not to include in the training or validation
+        create_test_loaders: boolean flag, if True create the train loader automatically
+            for the current train participants
+        create_train_loaders: boolean flag, if True creates the train loader automatically
+            for the current train participants
+        batch_size: batch size parameter to create the train data loaders
+    """
     def __init__(self, dataset_handler, k, ignore=None, create_test_loaders=True,
                  create_train_loaders=True, batch_size=1):
         if ignore is None:
@@ -26,6 +39,12 @@ class MyKFoldCV:
             self.cur_test_loader = self.dataset_handler.get_loader(self.cur_test, self.batch_size, shuffle=False)
 
     def next_split(self):
+        """
+        Switches to the next split of participants, updates the cur_test, cur_train and the loaders if the
+            respective parameters are True.
+        Returns:
+            None
+        """
         if self.test_id is None:
             self.cur_train_loader = None
             self.cur_test_loader = None

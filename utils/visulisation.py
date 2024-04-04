@@ -7,11 +7,11 @@ def plot_confusion_matrices(confusion_matrices):
     """
     Visualize confusion matrices and their sum.
 
-    Parameters:
-    - confusion_matrices (dict): Dictionary of confusion matrices for each participant.
+    Args:
+        confusion_matrices: Dictionary of confusion matrices for each participant.
 
     Returns:
-    - None
+        None
     """
 
     # Calculate the number of rows needed for visualization
@@ -49,6 +49,16 @@ def plot_confusion_matrices(confusion_matrices):
 
 
 def plot_history(history_dict, metric):
+    """
+    Plots history of a given metric on different folds.
+
+    Args:
+        history_dict: dictionary of {fold: history list}
+        metric: name of the metric
+
+    Returns:
+        None
+    """
     plt.figure(figsize=(10, 6))
     for fold, loss_history in history_dict.items():
         plt.plot(loss_history, label=f'Fold {fold}')

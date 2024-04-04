@@ -2,7 +2,16 @@ import torch.nn as nn
 
 
 class BasicModel(nn.Module):
+    """
+    Basic CNN.
+    """
     def __init__(self, in_size, out_size):
+        """
+
+        Args:
+            in_size: input size of the image
+            out_size: number of classes to output
+        """
         super().__init__()
         self.batchnorm0 = nn.BatchNorm2d(3, affine=False)
         self.conv1 = nn.Conv2d(3, in_size, 3, 1)

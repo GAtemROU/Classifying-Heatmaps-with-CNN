@@ -2,6 +2,14 @@ import re
 
 
 def extract_confusion_matrices(log_file):
+    """
+    Extracts confusion matrices.
+
+    Args:
+        log_file: log file to retrieve confusion matrices from
+    Returns:
+          dictionary of {participant: confusion matrix}
+    """
     folds = log_file.split('Fold ')
     confusion_matrices = {}
     for log in folds:
@@ -13,10 +21,19 @@ def extract_confusion_matrices(log_file):
             for matrix in matrices:
                 key, value = matrix.split(': array(')
                 confusion_matrices[eval(key)] = eval(value)
+
     return confusion_matrices
 
 
 def extract_loss_history(log_file):
+    """
+    Extracts loss history.
+
+    Args:
+        log_file: log file to retrieve loss history from
+    Returns:
+        list of losses in the order as in the file
+    """
     folds = log_file.split('Fold ')
     loss_history = {}
     for log in folds:
@@ -33,6 +50,14 @@ def extract_loss_history(log_file):
 
 
 def extract_val_history(log_file):
+    """
+    Extracts validation history.
+
+    Args:
+        log_file: log file to retrieve validation history from
+    Returns:
+        list of validation values in the order as in the file
+    """
     folds = log_file.split('Fold ')
     loss_history = {}
     for log in folds:

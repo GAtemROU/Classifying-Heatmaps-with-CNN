@@ -4,6 +4,16 @@ from sklearn.metrics import confusion_matrix, f1_score
 
 
 def compute_confusion_matrices(model, dataset, participants):
+    """
+    Computes confusion for a given list of participants on the given model.
+    Args:
+        model: model to compute confusion matrices
+        dataset: DatasetHandler object to get the instances
+        participants: list of participants as strings
+
+    Returns:
+        dictionary of {participant: confusion matrix}
+    """
     cfs = {}
     model.eval()
     if torch.cuda.is_available():
@@ -24,6 +34,16 @@ def compute_confusion_matrices(model, dataset, participants):
 
 
 def compute_accuracy(model, loader):
+    """
+    Computes accuracy on a given model and data loader
+
+    Args:
+        model: model to compute accuracy
+        loader: data loader to compute accuracy
+
+    Returns:
+        accuracy computed on the loader
+    """
     model.eval()
     if torch.cuda.is_available():
         model = model.cuda()
@@ -43,6 +63,16 @@ def compute_accuracy(model, loader):
 
 
 def compute_f1score(model, loader):
+    """
+    Computes f1 score on a given model and data loader
+
+    Args:
+        model: model to compute f1 score
+        loader: data loader to compute f1 score
+
+    Returns:
+        f1 score computed on the loader
+    """
     all_true_labels = []
     all_pred_labels = []
     model.eval()
